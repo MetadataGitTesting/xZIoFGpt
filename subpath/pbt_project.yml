@@ -1,0 +1,82 @@
+name: reinaldo.koelpin
+description: groupware
+version: 0.0.1
+author: 0zawdt0d.499piinw@wobvcr8c.com
+language: sql
+buildSystem: ''
+buildSystemDetails: null
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: ''
+  gemLibsVersion: ''
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2025-12-05 20:54:44'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels:
+  .prophecy/metadata/sqlmodels/model:
+    name: model
+    schema: null
+    description: null
+    author: 0zawdt0d.499piinw@wobvcr8c.com
+    files:
+    - model.sql
+    - .prophecy/ide/model.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-12-05 20:54:44'
+sqlSnapshots:
+  .prophecy/metadata/sqlsnapshots/snapshot:
+    name: snapshot
+    schema: null
+    description: snapshot desc
+    author: 0zawdt0d.499piinw@wobvcr8c.com
+    files:
+    - snapshot.sql
+    - .prophecy/ide/snapshot.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-12-05 20:54:44'
+sqlTests: {}
+sqlMacros:
+  .prophecy/metadata/sqlmacros/macro:
+    name: macro
+    macroType: macro
+    description: macro desc
+    author: 0zawdt0d.499piinw@wobvcr8c.com
+    files:
+    - macros.sql
+    - .prophecy/ide/macros.json
+    createdAt: '2025-12-05 20:54:44'
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline:
+  name: sqlPipeline
+  description: null
+  author: 0zawdt0d.499piinw@wobvcr8c.com
+  createdAt: '2025-12-05 20:54:44'
+dependencies: []
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
+projectConfigurations: {}
